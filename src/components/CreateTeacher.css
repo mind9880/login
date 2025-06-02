@@ -1,0 +1,84 @@
+/* Create Teacher Form Container */
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus {
+  border-color: #4CAF50; /* Green border when focused */
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+p {
+  color: red;
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+select {
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* For Mobile and Smaller Screens */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+
+  input, select, button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
